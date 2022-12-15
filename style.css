@@ -298,18 +298,21 @@ background: #f8f8f8;
      display: inline-block;
      line-height: 70px;
      transition: .5s;
-     transform: skewX(0deg);
+     transform: rotateY(0deg);
 }
 
 .service-box:hover img{
     background: #fff;
-  transform: rotateY(180deg);
+  transform: rotateY(200deg);
 
 }
   /* about-section */
   .about-section{
     background: #f8f8f8;
    padding-bottom: 100px;
+  }
+  iframe{
+    margin-top: 100px;
   }
 
   video{
